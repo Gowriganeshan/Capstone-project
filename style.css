@@ -1,0 +1,114 @@
+.main {
+    background-color: #e4f9f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px; 
+}
+
+body {
+    margin: 0;
+    font-family: "Merriweather", serif;  
+    text-align: center; 
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.2rem;
+    color: #66bfbf;
+    z-index: 1;
+}
+
+h2{
+   font-family: 'Sacramento', cursive;
+   font-size: 2.5rem;
+   color: #66bfbf;
+   font-weight: normal;
+   
+}
+.dev{
+    text-decoration:underline ;
+}
+.cloud1{
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    /* z-index: -1; */
+}
+.cloud2{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.mountain{
+    position: absolute;
+    bottom: 150px;
+}
+
+.text-container{
+    align-self: flex-start;
+    z-index: 2;
+}
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+}
+.profile-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.name{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+}
+.des{
+   width: 40%;
+   line-height: 2;
+   font-size: 1.1em;  
+}
+hr{
+    border-top: 7px dotted #66bfbf;   
+    width: 5%;    
+}
+
+.tec{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;    
+  
+}
+.backend{
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 20px;
+}
+.desc{  
+    margin-left: 5%;
+    margin-right: 10%;
+    line-height: 2;
+    font-size: 1.1em;     
+    text-align: center;
+}
+.container{
+    background-color: #e4f9f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}
